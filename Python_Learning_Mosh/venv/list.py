@@ -114,7 +114,8 @@ items = [
 
 # [expression for item in items]
 prices = [item[1] for item in items]
-# print(prices)
+print('prices',prices)
+print('items',items)
 
 filtered = [item for item in items if item[1] >= 10]
 # print(filtered)
