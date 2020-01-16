@@ -23,11 +23,11 @@ class TagCloud:
 
 
 cloud = TagCloud()
-print(cloud.__dict__)
-print(cloud._TagCloud__tags)
+# print(cloud.__dict__)
+# print(cloud._TagCloud__tags)
 
 
-# cloud.__tags
+cloud.__tags
 # cloud.add("python")
 # cloud.add("Python")
 # cloud.add("Python")
